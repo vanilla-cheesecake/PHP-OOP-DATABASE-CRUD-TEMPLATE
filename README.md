@@ -1,0 +1,2 @@
+# PHP-OOP-DATABASE-CRUD-TEMPLATE
+Dynamic Object Oriented CRUD in PHP

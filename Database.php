@@ -29,7 +29,9 @@ class Database {
 
         return $result;
     }
-
+    
+    
+    // Sample $result = $db->select("users", "*", "1", "", "");
     public function select($table, $columns = "*", $where = "1", $orderBy = "", $limit = "") {
     $sql = "SELECT " . $columns . " FROM " . $table . " WHERE " . $where;
 
